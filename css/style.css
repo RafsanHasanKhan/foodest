@@ -553,7 +553,7 @@ img {
   box-shadow: 5px 4px 15px rgba(248, 97, 97, 0.3);
 }
 /* Offered CSS */
-.section-offered {
+.offered-section {
   padding: 120px 0px;
   background-color: var(--white-color);
 }

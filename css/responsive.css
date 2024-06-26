@@ -99,6 +99,19 @@
   .hero-left h1 {
     font-size: 52px;
   }
+  .offered-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .offered-row .offered-details {
+  width: 100%;
+}
+.offered-row .offered-image {
+  width: 100%;
+}
+.offered-row .offered-image img {
+  width: 100%;
+}
 }
 @media (max-width: 630px) {
   .category-item {
