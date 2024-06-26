@@ -486,7 +486,7 @@ img {
   background-color: var(--white-color);
   padding: 26px 20px;
   border-radius: 10px;
-  transition: .5s;
+  transition: 0.5s;
   width: calc(25% - 63px);
 }
 .menu-card:hover {
@@ -551,4 +551,42 @@ img {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 4px 15px rgba(248, 97, 97, 0.3);
+}
+/* Offered CSS */
+.section-offered {
+  padding: 120px 0px;
+  background-color: var(--white-color);
+}
+.offered-row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.offered-row .offered-details {
+  width: 50%;
+}
+.offered-row .offered-image {
+  width: 50%;
+}
+.offered-section-title h3 {
+  margin-top: 30px;
+}
+.offered-section-title  p {
+  margin: 25px 0px 40px;
+}
+.timing-wrapper {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 42px;
+}
+.timing-single h2 {
+  font-family: var(--subtitle-font);
+  font-weight: 400;
+}
+.timing-single span {
+  font-family: var(--subtitle-font);
+  color: var(--primary-color);
+  font-size: 20px;
+
 }
